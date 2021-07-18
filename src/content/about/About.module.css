@@ -148,3 +148,29 @@
   color: #fff;
   letter-spacing: 2px;
 }
+
+@media (max-width: 1024px) {
+  .box:hover,
+  .box:hover {
+    z-index: 1;
+    transform: scale(1);
+    box-shadow: 0 25px 40px rgb(56 56 56 / 50%);
+  }
+
+  .box:hover .box_img:before,
+  .box .box_img:before {
+    opacity: 1;
+  }
+
+  .box:hover .content h2,
+  .box .content h2 {
+    transform: translateY(0);
+    transition-delay: 0.2s;
+  }
+
+  .box:hover .content p,
+  .box .content p {
+    transform: translateY(0);
+    transition-delay: 0.3s;
+  }
+}

@@ -162,3 +162,22 @@ figure.effect_sadie:hover p {
 /* figure.effect_sadie:hover p {
   height: 70%;
 } */
+
+@media (max-width: 1024px) {
+  figure.effect_sadie h2,
+  figure.effect_sadie:hover h2 {
+    color: #fff;
+    transform: translate3d(0, -50%, 0) translate3d(0, -50px, 0);
+  }
+
+  figure.effect_sadie figcaption::before,
+  figure.effect_sadie p {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  figure.effect_sadie p,
+  figure.effect_sadie:hover p {
+    transform: translate3d(0, -120px, 0);
+  }
+}
