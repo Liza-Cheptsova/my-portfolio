@@ -1,0 +1,12 @@
+.content_container {
+  background-color: #111;
+  border-left: 1px solid #202020;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
