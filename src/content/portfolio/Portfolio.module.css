@@ -91,6 +91,7 @@
 .grid figure h2 {
   word-spacing: -0.15em;
   font-weight: 300;
+  text-shadow: 2px 2px 1px #474747;
 }
 
 .grid figure h2 span {
@@ -121,10 +122,10 @@ figure.effect_sadie figcaption::before {
 
 figure.effect_sadie h2 {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   width: 100%;
-  color: #bbb;
+  color: #ececec;
   transition: transform 0.35s, color 0.35s;
   /* transform: translate3d(0, -50%, 0); */
   transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
